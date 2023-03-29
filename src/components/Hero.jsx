@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import { InvitationModal } from './InvitationModal';
 import dashboard from '../assets/images/dashboard.jpg';
-
+import Whatsapp from '../assets/icons/Whatsapp';
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -50,6 +50,7 @@ export const Hero = () => {
               className="custom-button-colored w-80 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
               onClick={() => setIsModalOpen(true)}
             >
+              <Whatsapp className="mr-3" />
               Contactanos
             </div>
           </div>

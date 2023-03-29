@@ -37,9 +37,7 @@ export const Navbar = () => {
             <a className="navbar-link" href="#pricing" aria-label="Pricing">
               Precios
             </a>
-            <a className="navbar-link" href="#feedback" aria-label="Feedback">
-              Comentarios
-            </a>
+
             <a className="navbar-link" href="#FAQ" aria-label="FAQ">
               FAQ
             </a>

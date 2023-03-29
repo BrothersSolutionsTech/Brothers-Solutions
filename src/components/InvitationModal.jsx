@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
 import { CloseIcon } from '../assets/icons/CloseIcon';
+import Whatsapp from '../assets/icons/Whatsapp';
 
 export const InvitationModal = ({ setIsOpen }) => (
   <AnimatePresence>
@@ -22,7 +23,7 @@ export const InvitationModal = ({ setIsOpen }) => (
           <div className="flex relative">
             <div className="w-1/2 hidden lg:inline">
               <h2 className="mt-6 mb-2 text-5xl font-bold tracking-normal text-white">
-                Contactanos
+                ¡No esperes mas!
               </h2>
               <h2 className="text-5xl font-bold tracking-normal text-customSecondary">
                 Hacemos tu web
@@ -63,10 +64,11 @@ export const InvitationModal = ({ setIsOpen }) => (
                 </div> */}
                 <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
                   <button
-                    className="py-4 px-6  w-full text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7765e6] transition ease-in-out duration-200"
+                    className="py-4 px-6 flex justify-center align-middle w-48 text-white font-semibold rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-customPrimary hover:bg-[#7765e6] transition ease-in-out duration-200"
                     type="button"
                   >
-                    Join Now
+                    <Whatsapp className="mr-3" />
+                    Contactanos
                   </button>
                 </div>
               </div>

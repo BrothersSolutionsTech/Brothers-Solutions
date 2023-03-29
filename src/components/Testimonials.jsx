@@ -1,9 +1,9 @@
-import { QuoteIcon } from "../assets/icons/QuoteIcon";
-import testimonial1 from "../assets/images/testimonial1.png";
-import testimonial2 from "../assets/images/testimonial2.png";
-import testimonial3 from "../assets/images/testimonial3.png";
+import { QuoteIcon } from '../assets/icons/QuoteIcon';
+import testimonial1 from '../assets/images/testimonial1.png';
+import testimonial2 from '../assets/images/testimonial2.png';
+import testimonial3 from '../assets/images/testimonial3.png';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
 export const Testimonials = () => (
   <section className="w-full flex justify-center pt-10 mb-16 lg:mb-32 bg-customDarkBg2 relative">
@@ -15,11 +15,9 @@ export const Testimonials = () => (
         viewport={{ once: true }}
         transition={{ duration: 0.4, delay: 0.3 }}
       >
-        <div className="custom-block-subtitle text-center mb-6">
-          Lorem Ipsum
-        </div>
+        <div className="custom-block-subtitle text-center mb-6">afsdafsdaf</div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+          asdfadfs
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
@@ -38,11 +36,9 @@ export const Testimonials = () => (
               <img src={testimonial1} alt="" width="45px" />
               <div className="flex flex-col ml-4">
                 <div className="custom-content-text-white font-medium">
-                  John Watkins
+                  adsfads
                 </div>
-                <div className="custom-content-text-gray">
-                  Founder of Dashflow
-                </div>
+                <div className="custom-content-text-gray">asdfafdsfds</div>
               </div>
             </div>
           </div>
@@ -61,11 +57,9 @@ export const Testimonials = () => (
               <img src={testimonial2} alt="" width="45px" />
               <div className="flex flex-col ml-4">
                 <div className="custom-content-text-white font-medium">
-                  John Watkins
+                  Jorge perez
                 </div>
-                <div className="custom-content-text-gray">
-                  Founder of Dashflow
-                </div>
+                <div className="custom-content-text-gray">asfdasf</div>
               </div>
             </div>
           </div>

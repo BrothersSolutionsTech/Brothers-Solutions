@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import { InvitationModal } from './InvitationModal';
 import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
-
+import Whatsapp from '../assets/icons/Whatsapp';
 export const Pricing = () => {
   const [isMonthly, setIsMonthly] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,10 +25,10 @@ export const Pricing = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center mb-16">
               <span className="custom-block-subtitle">
-                Dolor sit amet consectutar
+                Elige entre nuestros servicios
               </span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-white">
-                Elije entre nuestros servicios
+                Precios
               </h2>
               <p className="mb-6 text-customGrayText">
                 Estamos trabajando para ofrecer los mejores servicios
@@ -152,6 +152,7 @@ export const Pricing = () => {
                     className="inline-block text-center py-2 px-4 w-full custom-button-colored leading-loose transition duration-200 mt-20"
                     onClick={() => setIsModalOpen(true)}
                   >
+                    <Whatsapp className="mr-3" />
                     Contactanos
                   </div>
                 </div>

@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import { InvitationModal } from './InvitationModal';
 import featuresdiagonal from '../assets/images/featuresdiagonal.png';
-
+import Whatsapp from '../assets/icons/Whatsapp';
 export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -37,21 +37,25 @@ export const FeaturesDiagonal = () => {
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
               Nosotros nos encargamos
             </h2>
-            <p className="mb-16 text-customGrayText leading-loose">
-              No tiene que preocuparse por todo lo que pasa por detras de la
-              creacion del sitio web, incluyendo alojamiento web, registro de
+            <p className="mb-2 text-customGrayText leading-loose">
+              No tiene que preocuparse por todo lo que pasa por detrás de la
+              creación del sitio web, incluyendo alojamiento web, registro de
               dominio y seguridad del sitio. ¿Esto que significa para usted?
-              significa que puede estar seguro de que su sitio esta en buenas
-              manos y no pensar en ningun detalle tecnico. Confía en nosotros
+              Significa que puede estar seguro de que su sitio está en buenas
+              manos y no pensar en ningún detalle técnico. Confía en nosotros
               para que puedas centrarte en lo que realmente importa: su negocio.
             </p>
-            <a href="#FAQ" className="mb-16 text-customGrayText leading-loose">
+            <a
+              href="#FAQ"
+              className="mb-16 text-indigo-50 font-bold hover:text-indigo-400 leading-loose transition"
+            >
               Conoce mas sobre el proceso de creacion
             </a>
             <div
               className="w-[210px] h-12 custom-button-colored mr-10 "
               onClick={() => setIsModalOpen(true)}
             >
+              <Whatsapp className="mr-3" />
               Contactanos
             </div>
           </div>
